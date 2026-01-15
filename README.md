@@ -3,7 +3,7 @@
 
 # Hotel Services (Spring Boot microservices)
 
-Учебный проект демонстрирует базовую микросервисную архитектуру для бронирования отелей на Spring Boot. В составе: Eureka Server для service discovery, API Gateway для маршрутизации, сервис бронирований и сервис управления номерами. Проект использует Java 17, Spring Boot 3.5.x, Spring Cloud и in-memory H2.
+Проект демонстрирует базовую микросервисную архитектуру для бронирования отелей на Spring Boot. В составе: Eureka Server для service discovery, API Gateway для маршрутизации, сервис бронирований и сервис управления номерами. Проект использует Java 17, Spring Boot 3.5.x, Spring Cloud и in-memory H2.
 
 ## Состав модулей
 
