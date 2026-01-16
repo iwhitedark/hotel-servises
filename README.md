@@ -7,12 +7,28 @@
 
 ## Состав модулей
 
-Репозиторий содержит монорепозиторий `hotel-system` с четырьмя приложениями:
+Репозиторий содержит монорепозиторий `hotel-system` с 4 микросервисами:
 
-- **eureka-server** — Service Registry (порт `8761`).
-- **api-gateway** — маршрутизация запросов (порт `8080`).
-- **booking-service** — создание бронирований.
-- **hotel-service** — управление номерами, выдача рекомендаций по загрузке.
+hotel-system/
+├── eureka-server/          # Service Registry (порт `8761`)
+├── api-gateway/            # API Gateway - маршрутизация запросов (порт `8080`)
+├── hotel-service/          # Управление отелями и номерами, выдача рекомендаций по загрузке
+└── booking-service/        # Управление бронированиями
+
+## Компоненты
+Eureka Server - Сервер регистрации и обнаружения сервисов
+API Gateway - Маршрутизация запросов через Spring Cloud Gateway
+Hotel Service - Управление номерами и рекомендации
+Booking Service - Создание и управление бронированиями
+
+## Технологический стек
+Java: 17
+Spring Boot: 3.5.0
+Spring Cloud: 2024.0.0
+База данных: H2 (in-memory)
+ORM: Spring Data JPA
+Service Discovery: Netflix Eureka
+API Gateway: Spring Cloud Gateway
 
 ## Требования
 
