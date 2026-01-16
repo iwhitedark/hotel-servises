@@ -17,19 +17,19 @@
 ```
 
 ## Компоненты
-Eureka Server - Сервер регистрации и обнаружения сервисов
-API Gateway - Маршрутизация запросов через Spring Cloud Gateway
-Hotel Service - Управление номерами и рекомендации
-Booking Service - Создание и управление бронированиями
+- Eureka Server - Сервер регистрации и обнаружения сервисов
+- API Gateway - Маршрутизация запросов через Spring Cloud Gateway
+- Hotel Service - Управление номерами и рекомендации
+- Booking Service - Создание и управление бронированиями
 
 ## Технологический стек
-Java: 17
-Spring Boot: 3.5.0
-Spring Cloud: 2024.0.0
-База данных: H2 (in-memory)
-ORM: Spring Data JPA
-Service Discovery: Netflix Eureka
-API Gateway: Spring Cloud Gateway
+- Java: 17
+- Spring Boot: 3.5.0
+- Spring Cloud: 2024.0.0
+- База данных: H2 (in-memory)
+- ORM: Spring Data JPA
+- Service Discovery: Netflix Eureka
+- API Gateway: Spring Cloud Gateway
 
 ## Требования
 
